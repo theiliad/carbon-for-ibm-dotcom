@@ -244,7 +244,7 @@ describe('TableOfContents | default (desktop)', () => {
     'should navigate content to selected section',
     _tests.desktop.checkLinkFunctionality
   );
-  xit('should update current section on scroll', _tests.desktop.checkScrollSpy);
+  it('should update current section on scroll', _tests.desktop.checkScrollSpy);
   it(
     'should remain visible on page throughout scroll',
     _tests.desktop.checkStickyNav
@@ -266,7 +266,7 @@ describe('TableOfContents | default (mobile)', () => {
     'should navigate content to selected section',
     _tests.mobile.checkLinkFunctionality
   );
-  xit('should update current section on scroll', _tests.mobile.checkScrollSpy);
+  it('should update current section on scroll', _tests.mobile.checkScrollSpy);
   it(
     'should remain visible on page throughout scroll',
     _tests.mobile.checkStickyNav
